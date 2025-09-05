@@ -1,4 +1,7 @@
-# Ty & Carl
+---
+layout: main
+title: Ty & Carl
+---
 
 This is a site for Ty and Carl.
 
