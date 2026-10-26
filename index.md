@@ -3,6 +3,6 @@ layout: main
 title: Ty & Carl 🐛
 ---
 
-This is a site for Ty and Carl.
+Welcome!
 
-[About](/about/)
+[Click here](https://www.zola.com/wedding/carlieandtyler2027) to navigate to our Zola site.

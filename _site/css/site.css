@@ -99,7 +99,6 @@ body, h1, h2, h3, p, ul, ol, nav, table, th, td {
   }
   
   nav {
-    background-color: #000000;
     padding: 10px 0;
     font-size: calc(1rem + 0.15vw);
   }
@@ -119,7 +118,7 @@ body, h1, h2, h3, p, ul, ol, nav, table, th, td {
   
   nav ul li a {
     text-decoration: none;
-    color: #FFFFFF;
+    color: #AA55AA;
   }
   
   nav ul li a:hover {
@@ -168,8 +167,6 @@ body, h1, h2, h3, p, ul, ol, nav, table, th, td {
   }
   
   footer {
-    background-color: #000000;
-    color: #FFFFFF;
     text-align: center;
     padding: 10px 0;
   }
@@ -188,12 +185,10 @@ body, h1, h2, h3, p, ul, ol, nav, table, th, td {
   
   footer ul li a {
     text-decoration: none;
-    color: #FFFFFF;
   }
 
   .site-name {
     font-family: 'Roboto Slab', Roboto, sans-serif;
-    color: #AA55AA;
     font-weight: bold;
   }
   .one-column {
