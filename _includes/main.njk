@@ -7,9 +7,16 @@
     <title>{{ title }}</title>
   </head>
   <body>
-    <article>
+    <main>
       <h1 style="margin-top: 20px;">{{ title }}</h1>
-      {{ content | safe }}
-    </article>
+      <div class="card">
+        {{ content | safe }}
+        <div class="container reverse margin-top">
+          <div class="circle gold"></div>
+          <div class="circle blue"></div>
+          <div class="circle wine"></div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>

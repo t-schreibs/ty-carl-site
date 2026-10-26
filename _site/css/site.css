@@ -6,27 +6,28 @@ body, h1, h2, h3, p, ul, ol, nav, table, th, td {
   }
 
   html {
-    background-color: #000000;
+    background-color: #231123;
   }
-  
+
   body {
     font-family: Nunito, sans-serif;
     font-size: calc(1rem + 0.15vw);
     line-height: 1.6;
-    background-color: #FFFFFF;
-    color: #000000;
+    background-color: #EFE6EE;
+    color: #231123;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
   }
-  
-  article {
+
+  main {
     max-width: 750px;
     width: 90%;
     margin: 0 auto;
     padding: 20px;
     flex: 1;
     font-family: Roboto, sans-serif;
+    line-height: 200%;
   }
 
   hr {
@@ -38,15 +39,14 @@ body, h1, h2, h3, p, ul, ol, nav, table, th, td {
 
   h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto Slab', Roboto, sans-serif;
-    color: #000000;
     font-weight: bold;
   }
-  
+
   h1 {
     font-size: calc(2.2rem + 0.15vw);
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
-  
+
   h2 {
     font-size: calc(1.6rem + 0.15vw);
     margin-bottom: 15px;
@@ -56,147 +56,65 @@ body, h1, h2, h3, p, ul, ol, nav, table, th, td {
     font-size: calc(1.2rem + 0.15vw);
     margin-bottom: 8px;
   }
-  
-  p {
-    margin-bottom: 15px;
-  }
 
-  ul {
-    margin: 0 15px 30px;
-    list-style-type: square;
-  }
-
-  @media (min-width: 750px) {
-    ul {
-      columns: 2;
-    }
-    ul li {
-      padding-right: 20px;
-    }
-  }
-
-  li {
-    page-break-inside: avoid;
-    break-inside: avoid-column;
-  }
-
-  @media (pointer: coarse) {
-    li {
-      min-height: 48px;
-    }
-    ul li:last-child {
-      min-height: 0;
-    }
-  }
-  
   a {
-    color: #AA55AA;
+    color: #752F3A;
     text-decoration: none;
   }
-  
+
   a:hover {
     text-decoration: underline;
   }
-  
-  nav {
-    padding: 10px 0;
-    font-size: calc(1rem + 0.15vw);
-  }
-  
-  nav ul {
-    columns: 1;
-    list-style: none;
-    text-align: center;
-    margin: 15px 0;
-  }
-  
-  nav ul li {
-    display: inline;
-    margin: 0 10px;
-    padding: 0;
-  }
-  
-  nav ul li a {
-    text-decoration: none;
-    color: #AA55AA;
-  }
-  
-  nav ul li a:hover {
-    text-decoration: underline;
+
+  img {
+      max-height: 400px;
+      width: 100%;
+      border-radius: 8px;
+      object-fit: cover;
+      margin: 16px 0px;
+      filter: grayscale(0.25) sepia(0.25) contrast(1.25);
   }
 
-  nav ul li a span {
-    vertical-align: middle;
+  .card {
+      border: 2px solid #231123;
+      border-radius: 16px;
+      padding: 16px;
+      background-color: #FFFFFF;
+      box-shadow: 2px 2px #231123;
   }
 
-  section {
-    margin-top: 30px;
-    margin-bottom: 50px;
-  }
-  
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 20px;
-    table-layout: fixed;
+  .container {
+      display: flex;
+      width: 100%;
   }
 
-  th, td {
-    padding: 8px;
-    border: 1px solid #ad9cad;
-    overflow-wrap: break-word;
-    vertical-align: top;
+  .reverse {
+      flex-direction: row-reverse;
   }
 
-  tr td:first-child {
-    width: calc(5rem + 2vw);
+  .margin-bottom {
+      margin-bottom: 16px;
   }
 
-  td ul {
-    columns: 1;
-    margin: 0 15px;
-  }
-  
-  th {
-    background-color: #f2f2f2;
-    font-weight: bold;
-  }
-  
-  tr:hover {
-    background-color: #fbf0fb;
-  }
-  
-  footer {
-    text-align: center;
-    padding: 10px 0;
+  .margin-top {
+      margin-top: 16px;
   }
 
-  footer ul {
-    columns: 1;
-    list-style: none;
-    text-align: center;
-    margin: 15px 0;
+  .circle {
+      width: 10px;
+      height: 10px;
+      clip-path: circle(5px);
+      margin-right: 4px;
   }
 
-  footer ul li {
-    display: inline;
-    margin: 0 10px;
-  }
-  
-  footer ul li a {
-    text-decoration: none;
+  .wine {
+      background-color: #752F3A;
   }
 
-  .site-name {
-    font-family: 'Roboto Slab', Roboto, sans-serif;
-    font-weight: bold;
-  }
-  .one-column {
-    columns: 1;
+  .gold {
+      background-color: #E8DB7D;
   }
 
-  @media (max-width: 750px) {
-    .hide-on-small-screens {
-      display: none;
-    }
+  .blue {
+      background-color: #2274A5;
   }
